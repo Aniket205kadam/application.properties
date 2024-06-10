@@ -1,0 +1,4 @@
+spring.security.user.name = aniket
+spring.security.user.password = 2004
+
+server.servlet.session.cookie.same-site = strict
