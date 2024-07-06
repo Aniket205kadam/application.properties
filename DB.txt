@@ -36,3 +36,9 @@ spring.jpa.show-sql=true
 # schema will be automatically created afresh for every start of application
 #When we use update then the schema is present then schema is not created only update the data
 spring.jpa.hibernate.ddl-auto=update
+
+
+
+----------------------------------
+#If you get large object error by the data source then use this property:
+spring.datasource.hikari.auto-commit=false
