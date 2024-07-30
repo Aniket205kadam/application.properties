@@ -3,3 +3,20 @@ server.port=8761 #default port for eureka server
 eureka.instance.hostname=localhost
 eureka.client.fetch-registry=false
 eureka.client.register-with-eureka=false
+
+
+
+--------yml-----------------
+spring:
+  application:
+    name: ServiceRegistry
+
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetch-registry: false
+    register-with-eureka: false
