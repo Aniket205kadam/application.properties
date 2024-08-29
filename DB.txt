@@ -58,11 +58,11 @@ spring.sql.init.mode=always
 ----------------------------------
 spring:
   application:
-    name: QuizApp
+    name: ApplicationName
   datasource:
     url: jdbc:postgresql://localhost:5432/questiondb
     username: postgres
-    password: 2004
+    password: password
     driver-class-name: org.postgresql.Driver
   jpa:
     properties:
